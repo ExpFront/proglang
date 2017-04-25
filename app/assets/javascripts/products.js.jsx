@@ -6,10 +6,7 @@ class Products extends React.Component {
   renderProducts() {
     const products = this.props.data;
 
-    return products.map(item => {
-      console.log(item);
-      return <Product data={item} key={item.id} />;
-    });
+    return products.map(item => <Product data={item} key={item.id} />);
   }
   render() {
     return (
