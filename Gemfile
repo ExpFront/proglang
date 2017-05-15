@@ -10,6 +10,9 @@ end
 gem 'rails', '~> 5.0.2'
 # Use postgresql as the database for Active Record
 gem 'pg', group: :production # Added postgres and made it production only.
+
+gem 'rails_12factor'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
