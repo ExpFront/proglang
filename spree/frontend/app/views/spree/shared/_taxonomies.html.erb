@@ -6,9 +6,9 @@
       <% if taxonomy.root.children.any? %>
         <h4 class='taxonomy-root'>
           <% if taxonomy.name == 'translation missing: ru.spree.taxonomy_categories_name' %>
-            Категории
+            Categories
           <% else %>
-            Брэнды
+            Brands
           <% end %>
         </h4>
         <%= taxons_tree(taxonomy.root, @taxon, max_level) %>
